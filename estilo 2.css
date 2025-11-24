@@ -1,0 +1,49 @@
+body{background-image: url(https://www.casadochoro.com.br/images/auditorio-radames-gnattali.jpg);
+background-attachment: fixed;
+background-size: cover;
+font-family: DNMCA, roboto, Montserrat, Open Sans;}
+h1{color:#7e1830;}
+h2{color:rgba(0, 0, 0, 0.7);}
+p{color:rgba(0, 0, 0, 0.8);}
+footer{color:whitesmoke;}
+#cabeçalho{background-color: rgba(255, 255, 255, 0.6);
+display: flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 20px;}
+#cabeçalho nav ul{
+    display: flex;
+}
+#cabeçalho nav ul li{
+    list-style: none;
+    padding:0 3rem;
+}
+#cabeçalho nav ul li a{
+    text-decoration: none;
+    Color: black;
+    padding: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+#cabeçalho a:hover {
+    color:white;
+    background-color: rgb(57, 62, 75, 0.8);
+    font-weight: bold;
+}
+ul{list-style: none;}
+#logo{height: 65px;}
+#banner img{
+    width:100%;
+}
+#icons{
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+#icons img{
+    width:30%;
+}
+#icons ul{
+    display: flex;
+}
+article{
+    background-color: rgba(255, 255, 255, 0.8);
+}
